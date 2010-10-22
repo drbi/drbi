@@ -1,4 +1,6 @@
 Drbi::Application.routes.draw do
+  resources :employees
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
